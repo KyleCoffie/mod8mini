@@ -88,3 +88,15 @@ hr{
   grid-template-areas: 'area area . .';
 }
 
+@media screen and(max-width: 600px){
+  .main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  nav, section{
+    flex: 1 1 45%;
+    margin: 30px 0;
+  }
+}
+
